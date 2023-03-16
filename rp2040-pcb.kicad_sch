@@ -3405,7 +3405,7 @@
   (symbol (lib_id "105450-0101:105450-0101") (at 64.77 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 02cde107-2275-4138-965a-0f862abdc842)
-    (property "Reference" "J?" (id 0) (at 64.77 154.94 0))
+    (property "Reference" "J3" (id 0) (at 64.77 154.94 0))
     (property "Value" "105450-0101" (id 1) (at 64.77 157.48 0))
     (property "Footprint" "MOLEX_105450-0101" (id 2) (at 64.77 175.26 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
@@ -3547,7 +3547,7 @@
   (symbol (lib_id "power:GND") (at 45.72 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 14920ede-95b1-4085-8939-2faadab0dc6e)
-    (property "Reference" "#PWR?" (id 0) (at 45.72 193.04 0)
+    (property "Reference" "#PWR0135" (id 0) (at 45.72 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 45.72 191.77 0))
@@ -3923,7 +3923,7 @@
   (symbol (lib_id "power:GND") (at 21.59 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4d105bf4-e087-4582-a8fc-0bc73dc2df97)
-    (property "Reference" "#PWR?" (id 0) (at 21.59 179.07 0)
+    (property "Reference" "#PWR0108" (id 0) (at 21.59 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 21.59 177.8 0))
@@ -4208,7 +4208,7 @@
   (symbol (lib_id "power:VCC") (at 83.82 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 84f07f6c-c66a-4813-92ee-2a95f5260d16)
-    (property "Reference" "#PWR?" (id 0) (at 83.82 165.1 0)
+    (property "Reference" "#PWR0109" (id 0) (at 83.82 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (id 1) (at 83.82 156.21 0))
@@ -4674,7 +4674,7 @@
   (symbol (lib_id "power:GND") (at 83.82 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e3a09f49-7b83-47b7-9cb1-3364c1815e55)
-    (property "Reference" "#PWR?" (id 0) (at 83.82 193.04 0)
+    (property "Reference" "#PWR0129" (id 0) (at 83.82 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 83.82 191.77 0))
@@ -4813,7 +4813,7 @@
   (symbol (lib_id "power:VCC") (at 45.72 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid edf5137e-8abc-462e-8a3b-7764e516cfe8)
-    (property "Reference" "#PWR?" (id 0) (at 45.72 165.1 0)
+    (property "Reference" "#PWR0134" (id 0) (at 45.72 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (id 1) (at 45.72 156.21 0))
@@ -4930,6 +4930,12 @@
     (path "/e68d821f-0e3a-4fb3-9998-65f41f82f706"
       (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
     )
+    (path "/4d105bf4-e087-4582-a8fc-0bc73dc2df97"
+      (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/84f07f6c-c66a-4813-92ee-2a95f5260d16"
+      (reference "#PWR0109") (unit 1) (value "VCC") (footprint "")
+    )
     (path "/907f772e-4afb-4233-98aa-60f2361366bc"
       (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
     )
@@ -4987,6 +4993,9 @@
     (path "/35e1e7f2-4af1-40e0-974e-fd4249a10d57"
       (reference "#PWR0128") (unit 1) (value "+3.3V") (footprint "")
     )
+    (path "/e3a09f49-7b83-47b7-9cb1-3364c1815e55"
+      (reference "#PWR0129") (unit 1) (value "GND") (footprint "")
+    )
     (path "/c4b31e29-9e9b-4375-87ce-6e67b5ec718a"
       (reference "#PWR0130") (unit 1) (value "GND") (footprint "")
     )
@@ -4999,20 +5008,11 @@
     (path "/30934eb2-1bf3-41a2-b3f7-a2fb3a81353e"
       (reference "#PWR0133") (unit 1) (value "GND") (footprint "")
     )
-    (path "/14920ede-95b1-4085-8939-2faadab0dc6e"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/4d105bf4-e087-4582-a8fc-0bc73dc2df97"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/84f07f6c-c66a-4813-92ee-2a95f5260d16"
-      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/e3a09f49-7b83-47b7-9cb1-3364c1815e55"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/edf5137e-8abc-462e-8a3b-7764e516cfe8"
-      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+      (reference "#PWR0134") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/14920ede-95b1-4085-8939-2faadab0dc6e"
+      (reference "#PWR0135") (unit 1) (value "GND") (footprint "")
     )
     (path "/9c12fac9-f7f8-43f9-b443-23f3d244b6c0"
       (reference "C1") (unit 1) (value "10µ") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -5081,7 +5081,7 @@
       (reference "J2") (unit 1) (value "Conn_01x20_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical")
     )
     (path "/02cde107-2275-4138-965a-0f862abdc842"
-      (reference "J?") (unit 1) (value "105450-0101") (footprint "MOLEX_105450-0101")
+      (reference "J3") (unit 1) (value "105450-0101") (footprint "MOLEX_105450-0101")
     )
     (path "/5d1ad0d0-d77a-4a68-aca6-47a066747d53"
       (reference "L1") (unit 1) (value "10µ") (footprint "Inductor_SMD:L_0603_1608Metric")
